@@ -1,0 +1,756 @@
+/* header part starts */
+.header{
+    height:60px;
+    background-color: white;
+    box-shadow: 0px 10px 10px 0px #F16B1A; 
+    position:absolute;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    letter-spacing: 4px;
+    font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif;
+}
+
+
+.header a:hover{
+    text-decoration: none;
+    text-align: none;
+    
+    
+}
+.header .fa-bars:hover{
+    color: #2EB474;
+}
+.header .abt{
+    color:#2EB474;
+    font-weight: bold;
+}
+.header .r{
+    color:#01474C;
+    font-weight: bold;
+   
+}
+.header .abt:hover{
+    color:#F16B1A;
+}
+.r:hover{
+    color:#F16B1A;
+}
+
+ 
+.header .fa-bars{
+    font-size:35px; 
+    color:#F16B1A; 
+    width:100px;
+    /* letter-spacing: 5px; */
+} 
+
+/* header part ends */
+.background-image{
+    background-image: url("images/blue.jpg");
+
+  /* Full height */
+  height: auto; 
+    position: relative;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profile-section{
+    padding: 30px !important;
+    text-align: center;
+    height:600px;
+    margin:60px 30px;
+    font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif;
+}
+
+
+
+/* profile section left starts */
+.profile{
+    color:white;
+    letter-spacing:5px;
+    
+    background-color:#2EB474 ;
+    padding: 30px;
+    border-radius: 10px  10px 0px 0px;
+}
+
+.profile h2{
+    line-height: 70px;
+    font-weight:bold;
+}
+.profile h3{
+    line-height: 35px;
+}
+.profile-pic{
+    width:200px;
+    height:220px;
+    border-radius:50%;
+}
+.profile-icon{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.download{
+    height: 150px;
+    background-color: white;
+    padding: 20px;
+    letter-spacing: 20%;
+   
+}
+.btn-primary{
+    background-color: #F16B1A !important;
+    border-radius: 120px !important;
+    width:100%;
+    letter-spacing: 5px;
+    border:2px solid white !important;
+}
+.download h4{
+    padding-top: 20px;
+}
+/* profile section left ends */
+
+
+/*  about me section (right) starts */
+.right-section{
+   
+
+    margin-top: 90px !important;
+    font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif;
+    /* background-color: pink; */
+    width: 60%;
+ 
+}
+
+
+.aboutme{
+    background-color:white;
+    height: 600px;
+    color:#2EB474;
+    padding: 25px; 
+   
+}
+.aboutme h3{
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/*  born section starts  */
+.born-section{
+    color: #01474C;
+    padding: 30px;
+    width: 230px;
+    line-height: 20px;
+    float: left;
+    text-align: right;}
+
+.born, .nationality, .dateofbirth{
+    padding: 25px;
+}
+/*  born section ends  */
+
+
+
+/*  rectangle  section starts  */
+.rectangle{
+    width:5px;
+    background-color: #2EB474;
+    height:500px;
+    float: left;
+}
+
+
+/*  rectangle section ends  */
+
+
+/* welcome section starts */
+.welcome{
+    padding-top: 70px !important;
+    float: right;
+    padding-right: 29px;
+    width: 470px;
+    letter-spacing: 3px;
+    line-height: 30px;
+    color: #01474C;
+   font-size: 18px;
+   
+    
+    
+}
+    
+
+.born-section h4{
+    font-weight: bold;
+}
+
+.welcome .contact{
+    background-color: white !important;
+    width:250px !important;
+    border-radius:7px !important;
+    color: #01474C;
+    font-weight: 600;
+    border:2px solid #2EB474 !important;
+    
+}
+.welcome .contact:hover{
+    background-color: #2EB474 !important;
+    color:white;
+}
+.welcome a{
+    color:#01474C;
+}
+.welcome a:hover{
+    text-decoration: none;
+    text-align: none;
+    color: white;
+}
+/* welcome section ends */
+
+
+/*  resume section (right) starts */
+
+.resume{
+    
+    background-color: white;
+    height:auto;
+    padding:30px;
+    color:#2EB474 ;
+}
+
+.resume h3{
+    font-weight: bold;
+    letter-spacing: 3px;
+ 
+}
+.resume .educationicon{
+   
+   padding: 20px 210px;
+   
+}
+.educate{
+    background-color:#F16B1A !important;
+    width:300px !important;
+    border-radius:7px !important;
+    
+    letter-spacing: 2px; 
+     border:0px !important;
+    
+}
+/* bachelor, +2 text part starts */
+.year{
+    padding: 20px;
+    height: 180px;
+   
+}
+.rect {
+    height: 45px;
+    width: 150px;
+    background-color: #2EB474;
+    color:white;
+    position: relative;
+    float:left;
+   }
+
+.rect p{
+    position: absolute;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 5px 14px;
+}
+.triangle-right {
+      margin-left:150px;
+      width: 0;
+      height: 0;
+      border-top: 20px solid transparent;
+      border-left: 25px solid #2EB474;
+      border-bottom: 25px solid transparent;
+      color:red;
+      
+      
+  }
+
+  .bachelor{
+    float:right;
+    text-transform: uppercase;
+    color: #014C3B;
+    width:68%;
+   
+
+  }
+  .bachelor h5{
+    color:#F16B1A;
+
+}
+.bachelor h4{
+    font-weight: 700;
+    
+    color: #014C3B;
+}
+.bachelor h6{
+    color: #2EB474;
+
+}
+
+/* bachelor, +2 text part ends */
+
+
+
+
+
+/* digital skills part starts */
+
+
+
+
+.resume .digitalskills{
+    height:480px;
+     /* background-color: pink;  */
+    
+ }
+ .digital{
+     background-color:#F16B1A !important;
+     width:300px !important;
+     border-radius:7px !important;
+     border:0px !important;
+     margin: 20px 210px;
+}
+.multiplecircle{
+    display: flex;
+    justify-content: space-around;
+    width: 610px;
+    
+    /* padding: 25px 70px; */
+    /* background-color: red; */
+    height: 210px;
+    
+}
+
+.firstcircle p, .secondcircle p, .thirdcircle p{
+    position: absolute;
+    color:black;
+    padding-left: 25px;
+    font-size:32px;
+    padding-top: 25px;
+}
+.firstcircle h6, .secondcircle h6, .thirdcircle h6{
+    position: absolute;
+    color: black;
+   text-align: center;
+    font-size: 16px;
+    padding-top: 120px;
+}
+.firstcircle .dot{
+   width: 120px;
+    height: 120px;
+    background-image:linear-gradient(90deg, #2EB474 75% ,#F16B1A 25%);
+    border-radius: 50%;
+    position: absolute;
+    display: inline-block;
+    padding: 10px;
+  }
+  /* second line circle section(html/css, figma , responsive design)  */
+  .firstcircle .dot_1{
+    width: 120px;
+     height: 120px;
+     background-image:linear-gradient(90deg, #2EB474 70% ,#F16B1A 30%);
+     border-radius: 50%;
+     position: absolute;
+     display: inline-block;
+     padding: 10px;
+   }
+  .firstcircle .dot1, .secondcircle .dot1, .thirdcircle .dot1{
+    height: 100px;
+    width: 100px;
+    background-color:white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    
+  }
+  .secondcircle .dot{
+    width: 120px;
+    height: 120px;
+    background-image:linear-gradient(90deg, #2EB474 50% ,#F16B1A 50%);
+    border-radius: 50%;
+    position: absolute;
+    display: inline-block;
+    padding: 10px;
+
+  }
+  .secondcircle .dot_2{
+    width: 120px;
+    height: 120px;
+    background-image:linear-gradient(90deg, #2EB474 80% ,#F16B1A 20%);
+    border-radius: 50%;
+    position: absolute;
+    display: inline-block;
+    padding: 10px;
+
+  }
+  .thirdcircle .dot{
+    width: 120px;
+    height: 120px;
+    background-image:linear-gradient(90deg, #2EB474 65% ,#F16B1A 35%);
+    border-radius: 50%;
+    position: absolute;
+    display: inline-block;
+    padding: 10px;
+
+  }
+  .thirdcircle .dot_3{
+    width: 120px;
+    height: 120px;
+    background-image:linear-gradient(90deg, #2EB474 60% ,#F16B1A 40%);
+    border-radius: 50%;
+    position: absolute;
+    display: inline-block;
+    padding: 10px;
+
+  }
+  /* digital skills part ends */
+  
+  
+  
+/* training and certificates skills part starts */
+.certificates{
+    height:auto;
+    /* background-color: aqua; */
+    padding:10px;
+}
+.certif{
+  
+    padding: 20px 125px;
+}
+.train{
+
+        background-color:#F16B1A !important;
+        width:450px !important;
+        border-radius:7px !important;
+        letter-spacing: 2px; 
+         border:0px !important;
+        
+}
+/* training and certificates skills part starts */
+.square_rect{
+    height:1100px;
+    width:4px;
+    background-color: #2EB474;
+    margin: 15px;
+
+}
+.oval{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color:#2EB474;
+    margin-left: -48px;
+    /* margin-top: 2px; */
+    
+    position: absolute;
+}  
+.frontend{
+    padding: 25px 40px;
+    width:650px;
+    letter-spacing: 2px;
+    position: relative;
+    color:black;
+}
+.frontend a{
+    color:#B2A7A7;
+    text-decoration: underline;
+}
+
+/* training and certificates skills part ends */
+
+/* training and certificates skills part ends */
+
+
+/* language section starts */
+.languages{
+    height:auto;
+    /* background-color: red; */
+    padding:10px;
+}
+.count{
+  
+    padding: 20px 170px;
+}
+.lang{
+
+        background-color:#F16B1A !important;
+        width:300px !important;
+        border-radius:7px !important;
+        letter-spacing: 2px; 
+         border:0px !important;
+        
+}
+.english-text, .nepali-text, .hindi-text{
+    padding: 10px 100px;
+    
+    color:#01474C;
+
+}
+.gol {
+    margin:10px;
+    height: 25px;
+    width: 25px;
+    background-color: #2EB474;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: space-around;
+  }
+
+/* language section ends */
+/*  resume section (right) ends */
+
+
+/* portfolio part starts  */
+.portfolio{
+    background-color:white;
+    height:1200px;
+    color:#2EB474;
+    padding: 25px; 
+    margin-top:20px;
+   
+}
+.portfolio h3{
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* image part starts */
+
+/* port1, port3 , port5, port7 part starts */
+.port-1 , .port-3, .port-5, .port-7{                          
+    position: relative;
+    width: 50%;
+    float:left;
+    padding:10px;
+  }
+  .img1 , .img3, .img5, .img7{
+    display: block;
+    width: 100%;
+    height: 200px;
+  }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #014C3B;
+  }
+  .port-1:hover .overlay, .port-3:hover .overlay , .port-5:hover .overlay, .port-7:hover .overlay {
+    opacity: 0.4;
+    background-color:  #2EB474;
+  }
+  
+  .imag1, .imag3, .imag5, .imag7{
+    background-color:#F16B1A !important;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width:40px;
+    height:40px;
+  }
+.img1:hover, .img3:hover, .img5:hover, .img7:hover{
+    opacity: 0.7 !important;
+    
+    
+}
+
+/* port1, port3 , port5, port 7 part ends */
+/* port2,  port6 part starts */
+.port-2, .port-6 {
+    position: relative;
+    width: 50%;
+    float: right;
+    padding: 10px;
+  }
+  .img2, .img6 {
+    display: block;
+    width: 100%;
+    height: 400px;
+  }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #014C3B;
+  }
+  .port-2:hover .overlay, .port-6:hover .overlay {
+    opacity: 0.4;
+    background-color:  #2EB474;
+  }
+  
+  .imag2, .imag6{
+    background-color:#F16B1A !important;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width:40px;
+    height:40px;
+  }
+.img2:hover, .img6:hover{
+    opacity: 0.7 !important;
+    
+    
+}
+
+/* port2 , port 6part ends */
+/* port4 part starts */
+.port-4 {
+    position: relative;
+    width: 50%;
+    float: right;
+    padding: 10px;
+  }
+  .img4 {
+    display: block;
+    width: 100%;
+    height: 200px;
+  }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    /* background-color: #014C3B; */
+  }
+  .port-4:hover .overlay {
+    opacity: 0.4;
+    background-color:  #2EB474;
+  }
+  
+  .imag4{
+    background-color:#F16B1A !important;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width:40px;
+    height:40px;
+  }
+.img4:hover{
+    opacity: 0.7 !important;
+    
+    
+}
+/* port4 part ends */
+/* image part starts */
+
+
+
+
+
+/* contact part starts */
+
+.contact1{
+    background-color:white;
+    height: 670px;
+    color:#2EB474;
+    padding: 25px; 
+    margin-top:20px;
+   
+   
+}
+.contact1 h3{
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.contact-section{
+    color: #01474C;
+    padding: 40px 15px;
+    width: 230px;
+    line-height: 20px;
+    float: left;
+    text-align: right;
+
+}
+.phn, .email, .address{
+    padding:25px;
+}
+.contact1 .square-box{
+    width:5px;
+    background-color: #2EB474;
+    height:580px;
+    float: left;
+    color: #01474C;
+}
+.submit-section{
+   
+    float: right;
+   padding: 25px 0px;
+    width: 475px;
+   
+    line-height: 30px;
+    
+}
+.naam{
+    margin-top: 25px;
+}
+
+.naam h5{
+   font-weight: bold;
+   color: #01474C;
+ 
+    
+}
+.form-group .form-control {
+    height:200px !important;
+}
+
+.submit-section .sub{
+    background-color: white !important;
+    width:250px !important;
+    border-radius:7px !important;
+    
+    color: #01474C;
+    font-weight: 600;
+    border:2px solid #2EB474 !important;
+}
+.submit-section .sub:hover{
+    background-color: #2EB474 !important;
+    color:white;
+}
+
+
+
+
+/* contact part ends */
+
+
+/* portfolio part ends  */
+
